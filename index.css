@@ -1,0 +1,324 @@
+@font-face {
+	font-family: 'sbc-font';
+	src: url('fonts/sbc-font-Bold.eot');
+	src: local('☺'), url('fonts/sbc-font-Bold.woff') format('woff'), url('fonts/sbc-font-Bold.ttf') format('truetype'), url('fonts/sbc-font-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'sbc-font';
+	src: url('fonts/sbc-font-Regular.eot');
+	src: local('☺'), url('fonts/sbc-font-Regular.woff') format('woff'), url('fonts/sbc-font-Regular.ttf') format('truetype'), url('fonts/sbc-font-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+	background:#131415;
+	display: grid;
+    grid-template-columns: 300px auto;
+	grid-column-gap: 50px;
+    color: white;
+    font-family: 'sbc-font';
+}
+#sec1{
+	display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    color: white;
+	align-items: flex-start;
+	margin-left: 40px;
+	min-width: 300px;
+	border-right: 1px solid #282828;
+}
+#sec1 #second {
+	width: 275px;
+	height: 65px;
+	margin-top: 30px;
+	background: #282828;
+	border-radius: 10px;
+	display: grid;
+	grid-template-columns: 45px 190px 25px;
+}
+#sec1 #second .text{
+	align-self: center;
+	font-weight: 700;
+}
+.ava{
+	width: 39px;
+	height: 39px;
+	border-radius: 80%;
+	display: block;
+	margin-top: 15px;
+}
+.ava img {
+	border-radius: 50%;
+	width: 100%;
+}
+#sec1 #second .balance{
+ 	font-size: 12px;
+ 	color: #2E6AC6;
+}
+#sec1 #second .plus {
+	width: 25px;
+	height: 25px;
+	align-self: center;
+}
+#sec1 #third{
+	width: 275px;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+}
+#sec1 #third img {
+	width: 25px;
+	height: 25px;
+	position: static;
+}
+#sec1 #third span {
+	font-size: 10px;
+}
+#sec1 #third ul{
+	padding-left: 0px;
+}
+#sec1 #third li{
+	position: static;
+	list-style-type: none;
+	line-height: 25px;
+	margin-bottom: 8px;
+}
+#sec1 #third li span{
+	position: absolute;
+	margin-left: 10px;
+	font-size:12px;
+}
+#sec1 #third img{
+	width: 25px;
+	height: 25px;
+	border-radius: 20%;
+}
+#sec1 #four{
+	display: flex;
+	flex-direction: column;
+	width: 275px;
+	margin-top: 30px;
+}
+#sec1 #four .www {
+	width: 25px;
+	height: 25px;
+}
+#sec1 #four img {
+	width: 20px;
+	height: 20px;
+}
+#sec1 #four .notif{
+	margin-left: 50px;
+	margin-right: 5px;
+}
+#sec1 #four span {
+	font-size: 10px;
+}
+#sec1 #four ul{
+	padding-left: 0px;
+}
+#sec1 #four li{
+	list-style-type: none;
+	line-height: 25px;
+	margin-bottom: 8px;
+}
+#sec1 #four li span{
+	margin-left: 10px;
+	font-size:12px;
+}
+
+#sec1 #four .not{
+	display: flex;
+}
+#sec1 #five{
+	display: flex;
+	flex-direction: column;
+	width: 275px;
+	margin-top: 30px;
+}
+#sec1 #five img {
+	width: 25px;
+	height: 25px;
+	position: static;
+}
+#sec1 .nametag{
+	font-size: 10px;
+	color: grey;
+}
+#sec1 #five span {
+	font-size: 12px;
+}
+#sec1 #five ul{
+	padding-left: 0px;
+}
+#sec1 #five li{
+	position: static;
+	list-style-type: none;
+	line-height: 25px;
+	margin-bottom: 8px;
+}
+#sec1 #five li span{
+	position: absolute;
+	margin-left: 10px;
+	font-size:12px;
+}
+#sec1 #five img{
+	width: 25px;
+	height: 25px;
+	border-radius: 20%;
+}
+#sec1 #five .red{
+	color:red;
+}
+.main{
+	width: 168.19px;
+	height: 19.4px;
+	margin-top: 37px;
+}
+#sec2 {
+	display: flex;
+	flex-direction: column;
+	padding-left:30px;
+	margin-right: 20px;
+}
+#sec2 #first {
+	font-size: 18px;
+	margin-top: 41px;
+}
+#sec2 #second{
+	font-weight: none;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 30px;
+	text-align: center;
+	justify-content: space-between;
+}
+#sec2 #second div .per{
+	opacity: 0.3;
+	margin-right: 7px;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: -20px;
+}
+#sec2 #second div .vtor{
+	margin-top: 15px;
+	margin-left: 15px;
+	position: absolute;
+}
+#sec2 #second div .vtorn{
+	margin-left: 50px;
+	margin-top: 15px;
+}
+#sec2 #second .location{
+	margin-right: 20px;
+	width: 138px;
+	line-height: 35px;
+	background-color: #282828;
+	border-radius: 5px;
+	font-size: 12px;
+	padding-top: 4px;
+}
+#sec2 #second .firstsection{
+	display: flex;
+	flex-direction: row;
+	width: max-content;
+	justify-content: space-between;
+}
+#sec2 #second .secsection{
+	display: flex;
+	flex-direction: row;
+	width: max-content;
+	justify-content: space-between;
+}
+#sec2 #second .findspace{
+	font-size: 13px;
+	text-align: left;
+	padding-left: 15px;
+	padding-top: 4px;
+	margin-right: 20px;
+	min-width: 420px;
+	line-height: 35px;
+	background-color: #282828;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+#sec2 #second .findspace img{
+	width: 12px;
+	height: 12px;
+	padding-right: 15px;
+}
+#sec2 #second .other{
+	font-weight: normal;
+	font-style: normal;
+	font-size: 15px;
+	width: 138px;
+	line-height: 35px;
+	background-color: #2E6AC6;
+	border-radius: 5px;
+}
+#sec2 #third p{
+	color: #2E6AC6;
+	font-size: 18px;
+	top: 180px;
+}
+#sec2 #third p img{
+	margin-left: 10px;
+}
+#sec2 #four{
+	border-radius: 20px;
+	width: auto;
+	height: 110px;
+	background:linear-gradient(270deg, #393321 0%, #282828 16.67%);
+}
+#sec2 #five {
+	margin-top: 30px;
+}
+#sec2 #five span{
+	margin-bottom: 20px;
+	color: grey;
+}
+#sec2 #five div{
+	font-size: 15px;
+	color: grey;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	height: 111px;
+	width: auto;
+	text-align: center;
+	background-color: #282828;
+	border-radius: 20px;
+}
+#sec2 #five div img{
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+	margin-top: 48px;
+}
+#sec2 #six span{
+	margin-top: 30px;
+	margin-bottom: 50px;
+	color: grey;
+}
+#sec2 #six div img{
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+	margin-top: 48px;
+}
+#sec2 #six div{
+	color: grey;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: auto;
+	line-height: 110px;
+	text-align: center;
+	background-color: #282828;
+	border-radius: 20px;
+}
